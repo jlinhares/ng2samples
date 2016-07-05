@@ -1,9 +1,7 @@
 import {Component, OnInit, Input} from '@angular/core'
 
 @Component({
-    selector:'video-background',
-    //template:'<div style="with:100%;height:100vh;z-index:-10;><video><ng-content></ng-content></video></div>'
-    //template:'<div (resize)="onResize()" style="display: block;width:100vw; height:100vh;z-index:-1;position: absolute;overflow: hidden;"><video [style.width]="\'100vw\'" [style.height]="\'100hv\'" autoplay loop preload><ng-content></ng-content></video></div>'
+    selector:'video-background',    
     template:'<div (window:resize)="onResize()" style="block;width:100vw; height:100vh;z-index:-1;position: absolute;overflow: hidden;">'+
              '<video [muted]="!sound" [style.top]="vtop" [style.left]="vleft" [style.width]="vwidth" [style.height]="vheight" style="position:relative;" autoplay loop preload ><ng-content></ng-content></video>'+
              '</div>'
@@ -13,8 +11,7 @@ export class VideoBackgroundComponent implements OnInit {
     vheight='';
     vwidth='';
     vtop=null;
-    vleft=null;
-    muted="";
+    vleft=null;    
 
     constructor (){    
     }
@@ -22,11 +19,7 @@ export class VideoBackgroundComponent implements OnInit {
     //Implements
     ngOnInit(){
         var whpx=window.innerHeight;
-        var wwpx=window.innerWidth;
-        /*if(this.sound){
-            alert("sound: " + this.sound);
-            this.muted="muted=\"\"";
-        }*/
+        var wwpx=window.innerWidth;        
         if(wwpx/whpx>1280/720){
             this.vheight=null;
             this.vwidth='100vw';
