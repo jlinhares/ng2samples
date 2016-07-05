@@ -1,13 +1,8 @@
 import {Component, OnInit, Input} from '@angular/core'
 
 @Component({
-<<<<<<< HEAD
     selector:'video-background',    
     template:'<div (window:resize)="onResize()" style="width:100vw; height:100vh;display:block;z-index:-1;position: absolute;overflow: hidden;">'+
-=======
-    selector:'video-background',
-    template:'<div (window:resize)="onResize()" style="block;width:100vw; height:100vh;z-index:-1;position: absolute;overflow: hidden;">'+
->>>>>>> origin/master
              '<video [muted]="!sound" [style.top]="vtop" [style.left]="vleft" [style.width]="vwidth" [style.height]="vheight" style="position:relative;" autoplay loop preload ><ng-content></ng-content></video>'+
              '</div>'
 })
