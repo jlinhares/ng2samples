@@ -9,10 +9,6 @@ This component is to be used with Angular JS 2.
 
 > Typescript Angular2 environment
 
-#### Imports:
-
-		import {VideoBackgroundComponent} from './videobackground.component'
-
 #### Usage:
 	
 >**HTML**
