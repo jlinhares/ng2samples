@@ -1,1 +1,35 @@
-# video-backgroundThis component is to be used with Angular JS 2.#### Requires:>16/9 vídeo compatible with web browsers> Typescript Angular2 environment#### Imports:		import {VideoBackgroundComponent} from './videobackground.component'#### Usage:	>**HTML**			<video-background [sound]="false">			<source src="videofile.mp4" type="video/mp4" />			<source src="videofile.webm" type="video/webm" />		</vídeo-background>>**Code**		inport ...		import {VideoBackgroundComponent} from './videobackground.component'		@Component({		    selector:'your-selector',		    template:'your template here',		    directives: [VideoBackground]		})		export class VideoBackgroundComponent {		}		
+# video-background
+
+
+This component is to be used with Angular JS 2.
+
+#### Requires:
+
+>16/9 vídeo compatible with web browsers
+
+> Typescript Angular2 environment
+
+#### Usage:
+	
+>**HTML**
+	
+		<video-background [sound]="false">
+			<source src="videofile.mp4" type="video/mp4" />
+			<source src="videofile.webm" type="video/webm" />
+		</vídeo-background>
+>**Code**
+
+		inport ...
+		import {VideoBackgroundComponent} from './videobackground.component'
+
+		@Component({
+		    selector:'your-selector',
+		    template:'your template here',
+		    directives: [VideoBackground]
+
+		})
+		export class VideoBackgroundComponent {
+		}
+	
+
+
