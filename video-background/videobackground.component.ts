@@ -58,6 +58,7 @@ export class VideoBackgroundComponent implements OnInit {
         this.calc_resize();
     }
 
+    //Private functions
     private calc_resize() {   
         var inner= new VBGInner;        
         if( inner.ratio() > 1280/720){
