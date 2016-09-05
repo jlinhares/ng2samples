@@ -30,7 +30,7 @@ Has some classes that starts with VGB to not collide with existing classes. Howe
 		    directives: [VideoBackground]
 
 		})
-		export class VideoBackgroundComponent {
+		export class YourComponent {
 		}
 	
 
