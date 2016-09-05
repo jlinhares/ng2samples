@@ -10,7 +10,7 @@ Video will be centered.
 
 Typescript Angular2 environment
 
-Has some classes that starts with VGB to not collide with existing classes. However, this can be changed to your own classes.
+Has some classes that starts with VBG to not collide with existing classes. However, this can be changed to your own classes.
 #### Usage:
 	
 **HTML**
