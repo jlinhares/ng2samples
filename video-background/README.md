@@ -19,7 +19,7 @@ Has some classes that starts with VGB to not collide with existing classes. Howe
 		<video-background sound="false" min-width="1000" min-height="500" >
 			<source src="videofile.mp4" type="video/mp4" />
 			<source src="videofile.webm" type="video/webm" />
-		</vídeo-background>
+		</video-background>
 **Code**
 
 	import { NgModule }      from '@angular/core';
