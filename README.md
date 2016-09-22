@@ -4,7 +4,7 @@ Contains components and samples
 
 ---
 ### Video background
-This is a component for adding vídeo background on Angular 2 web pages.
+This is a component for adding video background on Angular 2 web pages.
 
 Usage and requirements inside folder
 
